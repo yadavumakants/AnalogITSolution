@@ -1880,3 +1880,36 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+.contact-section {
+  width: 100%;
+  padding: 40px 20px;
+}
+.contact-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.contact-col {
+  flex: 0 0 48%;
+  text-align: center;
+}
+.btn-social, .btn-whatsapp {
+  display: inline-block;
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+}
+.btn-social {
+  background: #3b5998; /* Facebook Blue */
+}
+.btn-whatsapp {
+  background: #25d366; /* WhatsApp Green */
+}
+.btn-social:hover,
+.btn-whatsapp:hover {
+  opacity: 0.9;
+}
